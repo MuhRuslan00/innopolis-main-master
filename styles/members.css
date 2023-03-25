@@ -1,0 +1,44 @@
+.memebers{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  
+  
+  
+  .member{
+    position: relative;
+    margin-top: 18px;
+  }
+  
+  .member:not(:last-child){
+    margin-right: 18px;
+  }
+  .memeber__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 38px;
+    margin: 0;
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+  .member:hover> .memeber__name{
+    visibility: visible;
+  }
+  
+  .member__photo{
+    display: block;
+    width: 198px;
+    height: 218px;
+    background-color:#FFFFFF;
+    }
+  

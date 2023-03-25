@@ -1,0 +1,47 @@
+.services {
+    padding-top: 108px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid #ECECEC;
+  }
+  
+  .services__lead {
+    flex: 1 1 502px;
+    max-width: 534px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+  
+  }
+  
+  .services__heading {
+    font-family: 'Open Sans';
+    font-size: 42px;
+    position: relative;
+    bottom: 6px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+  }
+  
+  .services__text {
+    font-family: 'Open Sans';
+    margin: 0;
+    line-height: 28px;
+    margin-bottom: 50px;
+  }
+  
+  .action__button__white {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: #FF2D2D;
+    background-color: #FFFFFF;
+    border: 2px solid #FF0000;
+  }
+  
+  /* 2 часть    */
+  
+  .services__blocks {
+    flex: 1 1;
+    max-width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 36px;
+  }
